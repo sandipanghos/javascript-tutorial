@@ -7,7 +7,7 @@
  */
 function openTab(evt, tabIndex) {
   hideAllTabContents(evt, tabIndex);
-  deactivareAllTablinks(evt, tabIndex);
+  deactivateAllTablinks(evt, tabIndex);
   showSelectedTabContent(evt, tabIndex);
 }
 
@@ -39,7 +39,7 @@ function showSelectedTabContent(evt, tabIndex) {
  * @param {*} evt
  * @param {*} tabIndex
  */
-function deactivareAllTablinks(evt, tabIndex) {
+function deactivateAllTablinks(evt, tabIndex) {
   let i, tablinks;
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
