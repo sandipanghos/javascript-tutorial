@@ -39,7 +39,7 @@ function showSelectedTabContent(evt, tabIndex) {
  * @param {*} evt
  * @param {*} tabIndex
  */
-function deactivateAllTablinks(evt, tabIndex) {
+function deActivateAllTablinks(evt, tabIndex) {
   let i, tablinks;
   tablinks = document.getElementsByClassName("tablink");
   for (i = 0; i < tablinks.length; i++) {
