@@ -1,4 +1,4 @@
-# javascript-tutorial --- Javascript-Tabs
+# javascript-tutorial - Javascript-Tabs
 
 # Tech stack:
 
