@@ -2,7 +2,7 @@
 
 # Tech stack:
 
-HTMl5
+HTML5
 CSS
 Javascript
 
