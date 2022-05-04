@@ -7,7 +7,7 @@
  */
 function openTab(evt, tabIndex) {
   hideAllTabContents(evt, tabIndex);
-  deactivateAllTablinks(evt, tabIndex);
+  deActivateAllTablinks(evt, tabIndex);
   showSelectedTabContent(evt, tabIndex);
 }
 
@@ -54,5 +54,5 @@ function deActivateAllTablinks(evt, tabIndex) {
  */
 function closeTab(evt, tabIndex) {
   document.getElementById(tabIndex).style.display = "none";
-  deactivareAllTablinks(evt, tabIndex);
+  deActivateAllTablinks(evt, tabIndex);
 }
